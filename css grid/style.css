@@ -1,0 +1,21 @@
+#container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.head {
+  grid-area: h;
+}
+
+.side-nav {
+  grid-area: s;
+}
+
+.main {
+  grid-area: m;
+}
+
+.foot {
+  grid-area: f;
+}
